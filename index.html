@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check-In List Application</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/agenda.css">
+</head>
+<body>
+
+<div id="layout" class="x-borders">o
+    <header>
+        <div>
+            <h1>Gym Member check-in list</h1>
+        </div>
+    </header>
+
+    <div id="top-menu">
+        <div>
+            <button id="secondary-toggle" class="genericon genericon-menu">Widgets</button>
+
+            <ul>
+                <li><a href="index.html" title="welcome home">HOME</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <div>Gym Member list</div>
+        <h3>Add New Gym Member</h3>
+        <form id="create-item-form">
+            <label for="firstName-field">First Name: </label><input type="text" id="firstName-field"
+                                                                    placeholder="First Name">
+            <label for="lastName-field">Last Name: </label><input type="text" id="lastName-field"
+                                                                  placeholder="Last Name">
+            <label for="number-field">Number Name: </label><input type="text" id="number-field"
+                                                                  placeholder="Gym Member Number">
+
+            <input type="submit" id="submit-form"/>
+        </form>
+
+
+        <table id="phone-book">
+            <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Gym Member Id</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+<script src="js/lib/jquery-3.4.1.min.js"></script>
+
+<script src="js/checkin-list.js"></script>
+
+</body>
+</html>
