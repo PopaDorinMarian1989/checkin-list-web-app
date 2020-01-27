@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/agenda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
 </head>
 <body>
 
@@ -24,7 +26,6 @@
             <ul>
                 <li><a href="index.html" title="welcome home">HOME</a></li>
 
-
             </ul>
         </div>
     </div>
@@ -38,23 +39,33 @@
                                                                     placeholder="First Name">
             <label for="lastName-field">Last Name: </label><input type="text" id="lastName-field"
                                                                   placeholder="Last Name">
-            <label for="number-field">Number Name: </label><input type="text" id="number-field"
+            <label for="nr-field">Number: </label><input type="text" id="nr-field"
                                                                   placeholder="Gym Member Number">
 
             <input type="submit" id="submit-form"/>
         </form>
 
 
-        <table id="phone-book">
+        <table id="index">
             <thead>
             <tr>
+                <th>Delete</th>
                 <th>First name</th>
                 <th>Last name</th>
                 <th>Gym Member Id</th>
-                <th>Actions</th>
             </tr>
             </thead>
             <tbody>
+            <tr>
+                <td><a href="#" class="delete-item"><i class="far fa-trash-alt"></i>
+                </a></td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td><input type="checkbox" class="mark-done"/></td>
+
+            </tr>
+
 
             </tbody>
         </table>

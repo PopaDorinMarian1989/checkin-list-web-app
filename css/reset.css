@@ -10,7 +10,7 @@ article, aside, canvas, details, embed, figure, figcaption, footer, header, menu
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, figcaption, figure,
 footer, header, menu, nav, section {
     display: block;
 }
